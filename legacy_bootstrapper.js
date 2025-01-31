@@ -1,0 +1,1 @@
+(async function(){let scr=document.createElement("script");scr.textContent=(await (await fetch("https://raw.githubusercontent.com/ThisAintComputin/uTrack/refs/heads/main/index.js")).text());document.body.append(scr);})();
